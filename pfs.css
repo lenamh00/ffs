@@ -1,47 +1,158 @@
+
+
+
+
+
 #main{
     margin:30px auto;
-    max-width:1000px;
+    max-width:1300px;
     max-height:100%;
-    background-color:#dddddddd;
+    background-color:#f1f1f3;
     border-radius:5px;
     padding:15px;
     
   }
+
+
+
+
+
+
+
+
+
   #title{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
     text-align:center;
+   font-size:40px;
+    line-height: 1.2;
+    font-weight: 600;
     
   }
   
+
+
+#fig{
+  text-align: center;
+  margin: 15px 0 5px 0;
+  font-size: 1.1rem;
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+  color:rgb(107, 107, 107);
+  font-size: 1.1rem;
+
+}
   
   #img-div{
-    width:600px;
+   max-width:1270px;
     margin:0 auto;
     padding:15px;
-    background-color:#fff;
+    background-color: white;
+   
   }
+
   #main > p{
     text-align:center;
+    color:rgb(107, 107, 107);
+    font-size: 18px;
   }
   #image{
-    display:block;
-    width:100%;
+
+
+
+
+
+
+    max-width:100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    
+ 
     padding-bottom:10px;
   }
   #tribute-info{
-    width:600px;
+    max-width:600px;
     margin:0 auto;
+
     
   }
+#s{
+  font-weight: bold;
+  color:#333;
+  font-size: 16px;
+}
   
-  #tribute-info > h3,h1
+  
+  #tribute-info > h3
   {
+    font-family: sans-serif;
+   color: #333;
     text-align:center;
+    display: block;
+    font-size: 1.17em;
+    text-align: center;
+    font-weight: bold;
   }
   #tribute-info > ul li{
-  margin-bottom:10px;
-    line-height:40px;
+  margin-bottom:16px;
+    line-height:1.6;
+    font-size: 0.96rem;
+    
+    font-weight: 400;
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
   }
   h5{
     text-align:center;
+
+font-weight: bold;
+
+    display: block;
+    font-size: 1.20em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
   }
+ .itali{
+   line-height: 1.7;
+   display: block;
+   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  max-width: 545px;
   
+  text-align: left;
+  font-style: italic;
+  max-width: 545px;
+  margin: 18 auto 50px auto;
+ font-weight: 200;
+ color: #333;
+
+
+
+ }
+li{
+  font-size: 18px;
+  color: rgb(107, 107, 107);
+}
+#n{
+  text-align: center;
+  display: block;
+    font-size: 19px;
+color:#333;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a{
+  color: #477ca7;
+  cursor: pointer;
+    text-decoration: underline;
+}
